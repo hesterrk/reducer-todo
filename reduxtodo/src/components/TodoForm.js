@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { useToDoContext } from "../context/useToDoContext";
 
-export default function ToDoForm(props) {
+export default function ToDoForm() {
 
   const { handleChanges, handleSubmit, state, dispatch, isComplete } = useContext(useToDoContext)
     

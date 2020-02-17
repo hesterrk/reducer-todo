@@ -5,12 +5,6 @@ import ToDoForm from "./components/TodoForm";
 import { useToDoContext } from "./context/useToDoContext";
 
 
-
-//add other files to import 
-
-
-
-
 function App() {
 
   //Use our todoreducer hook here, need to import it 

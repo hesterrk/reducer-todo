@@ -5,6 +5,7 @@ import ToDoForm from "./components/TodoForm";
 import { useToDoContext } from "./context/useToDoContext";
 
 
+
 function App() {
 
   //Use our todoreducer hook here, need to import it 
@@ -24,12 +25,14 @@ function App() {
 
 //adding new task button
 
+
 const handleSubmit = e => {
   e.preventDefault();
   const newItem = {
     item: state.newTask ,
     completed: false,
     id: Date.now(),
+    
     
   }
   console.log(newItem);

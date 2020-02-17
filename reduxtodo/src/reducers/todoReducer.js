@@ -2,7 +2,6 @@
 
 // My initial state object:  a list of todos 
 
-
 export const initialState = {
   
    myList : [

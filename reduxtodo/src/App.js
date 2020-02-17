@@ -8,8 +8,6 @@ import { useToDoContext } from "./context/useToDoContext";
 
 function App() {
 
-  //Use our todoreducer hook here, need to import it 
-  //if we want our input field: [newTitleText] = useState(state.title) = keeps track of all updates
 
   const [state, dispatch] = useReducer(toDoReducer, initialState);
 
